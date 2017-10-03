@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timetable ascttversion="2017.6.10" importtype="database" options="idprefix:MyApp">
+   <teachers options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <teacher id="*1" name="Pirvan Evgheni" short="PE" htmlexportlink="teachers_0.html?frame=0"/>
+      <teacher id="*2" name="Pîrvan Svetlana" short="PS" htmlexportlink="teachers_0.html?frame=1"/>
+      <teacher id="*3" name="Gutu Valerii" short="GV" htmlexportlink="teachers_0.html?frame=2"/>
+      <teacher id="*4" name="Bortnic Elizaveta" short="BE" htmlexportlink="teachers_0.html?frame=3"/>
+      <teacher id="*5" name="Matas Gavril" short="MG" htmlexportlink="teachers_0.html?frame=4"/>
+      <teacher id="*6" name="Blaja Maria" short="BlM" htmlexportlink="teachers_0.html?frame=5"/>
+      <teacher id="*7" name="Padure Gheorghe" short="PG" htmlexportlink="teachers_0.html?frame=6"/>
+      <teacher id="*8" name="Dedin Ana" short="DA" htmlexportlink="teachers_0.html?frame=7"/>
+      <teacher id="*9" name="Tataru Nicolae" short="TN" htmlexportlink="teachers_0.html?frame=8"/>
+      <teacher id="*10" name="Chihai Ion" short="CI" htmlexportlink="teachers_0.html?frame=9"/>
+      <teacher id="*11" name="Jolea Ecaterina" short="JE" htmlexportlink="teachers_0.html?frame=10"/>
+      <teacher id="*12" name="Bortnic Eugen" short="BE" htmlexportlink="teachers_0.html?frame=11"/>
+      <teacher id="*13" name="Miron Veronica" short="MV" htmlexportlink="teachers_0.html?frame=12"/>
+      <teacher id="*14" name="Zbirciog Tatiana" short="ZT" htmlexportlink="teachers_0.html?frame=13"/>
+      <teacher id="*15" name="Ivascisin Dina" short="ID" htmlexportlink="teachers_0.html?frame=14"/>
+      <teacher id="*16" name="Girnet Ionela" short="IG" htmlexportlink="teachers_0.html?frame=15"/>
+      <teacher id="*17" name="Carp Zoia" short="CZ" htmlexportlink="teachers_0.html?frame=16"/>
+      <teacher id="*18" name="Podbeglîi Anatol" short="AP" htmlexportlink="teachers_0.html?frame=17"/>
+      <teacher id="*19" name="Bobeico Maria" short="BM" htmlexportlink="teachers_0.html?frame=18"/>
+      <teacher id="*20" name="Ganev Maria" short="GM" htmlexportlink="teachers_0.html?frame=19"/>
+      <teacher id="*21" name="Constandache Rita" short="CR" htmlexportlink="teachers_0.html?frame=20"/>
+      <teacher id="*22" name="Oleacov Liliana" short="OL" htmlexportlink="teachers_0.html?frame=21"/>
+      <teacher id="*23" name="Bulici Valentina" short="BV" htmlexportlink="teachers_0.html?frame=22"/>
+      <teacher id="*24" name="Ciobanu Afanasie" short="CA" htmlexportlink="teachers_0.html?frame=23"/>
+      <teacher id="*25" name="Tataru Gheorghe" short="TG" htmlexportlink="teachers_0.html?frame=24"/>
+      <teacher id="*26" name="Fulea Ion" short="FI" htmlexportlink="teachers_0.html?frame=25"/>
+      <teacher id="*27" name="Tataru Svetlana" short="TS" htmlexportlink="teachers_0.html?frame=26"/>
+      <teacher id="*28" name="Rotaru Angela" short="RA" htmlexportlink="teachers_0.html?frame=27"/>
+      <teacher id="*29" name="Tataru Lilia" short="TL" htmlexportlink="teachers_0.html?frame=28"/>
+      <teacher id="*30" name="Sidorenco Maria" short="MS" htmlexportlink="teachers_0.html?frame=29"/>
+      <teacher id="*31" name="Diacoglo Nicolae" short="DN" htmlexportlink="teachers_0.html?frame=30"/>
+      <teacher id="*32" name="Bancila Lacramioara" short="BL" htmlexportlink="teachers_0.html?frame=31"/>
+      <teacher id="*33" name="Chihai Raisa" short="CR" htmlexportlink="teachers_0.html?frame=32"/>
+      <teacher id="*34" name="Chiosa Valentina" short="CV" htmlexportlink="teachers_0.html?frame=33"/>
+      <teacher id="*35" name="Danila Larisa" short="DL" htmlexportlink="teachers_0.html?frame=34"/>
+      <teacher id="*36" name="Ianacoglo Margareta" short="IM" htmlexportlink="teachers_0.html?frame=35"/>
+      <teacher id="*37" name="Piscunov Alexandra" short="PA" htmlexportlink="teachers_0.html?frame=36"/>
+      <teacher id="*38" name="Scripcenco Anastasia" short="SA" htmlexportlink="teachers_0.html?frame=37"/>
+      <teacher id="*39" name="Voinscaia Violeta" short="VV" htmlexportlink="teachers_0.html?frame=38"/>
+      <teacher id="*40" name="Brezan Leonid" short="BL" htmlexportlink="teachers_0.html?frame=39"/>
+      <teacher id="*41" name="Stefanita Andrei" short="SA" htmlexportlink="teachers_0.html?frame=40"/>
+      <teacher id="*42" name="Arseni Adriana" short="AA" htmlexportlink="teachers_0.html?frame=41"/>
+      <teacher id="*43" name="Bob Oxana" short="OB" htmlexportlink="teachers_0.html?frame=42"/>
+      <teacher id="*44" name="Bostanel Sabrina" short="BS" htmlexportlink="teachers_0.html?frame=43"/>
+      <teacher id="*45" name="Caruta Constantin" short="CC" htmlexportlink="teachers_0.html?frame=44"/>
+      <teacher id="*46" name="Craciuneac Mariana" short="CM" htmlexportlink="teachers_0.html?frame=45"/>
+      <teacher id="*47" name="Gisca Raisa" short="GR" htmlexportlink="teachers_0.html?frame=46"/>
+      <teacher id="*48" name="Grosu Valentina" short="GV" htmlexportlink="teachers_0.html?frame=47"/>
+      <teacher id="*49" name="Hantea Larisa" short="HL" htmlexportlink="teachers_0.html?frame=48"/>
+      <teacher id="*50" name="Mocanu Tatiana" short="MT" htmlexportlink="teachers_0.html?frame=49"/>
+      <teacher id="*51" name="Nazarin Ecaterina" short="NE" htmlexportlink="teachers_1.html?frame=0"/>
+      <teacher id="*52" name="Neagu Iulia" short="NI" htmlexportlink="teachers_1.html?frame=1"/>
+      <teacher id="*53" name="Popa Veronica" short="PV" htmlexportlink="teachers_1.html?frame=2"/>
+      <teacher id="*54" name="Renta Valentina" short="RV" htmlexportlink="teachers_1.html?frame=3"/>
+      <teacher id="*55" name="Renta Mihail" short="RM" htmlexportlink="teachers_1.html?frame=4"/>
+      <teacher id="*56" name="Lupu Nelea" short="LN" htmlexportlink="teachers_1.html?frame=5"/>
+      <teacher id="*57" name="Stanciuc Tatiana" short="ST" htmlexportlink="teachers_1.html?frame=6"/>
+      <teacher id="*58" name="Tabuncic Ioana" short="TI" htmlexportlink="teachers_1.html?frame=7"/>
+      <teacher id="*59" name="Colidobri Iulia" short="IC" htmlexportlink="teachers_1.html?frame=8"/>
+      <teacher id="*60" name="Bucur Marina" short="BM" htmlexportlink="teachers_1.html?frame=9"/>
+      <teacher id="*61" name="Stoleru Olimpia" short="SO" htmlexportlink="teachers_1.html?frame=10"/>
+      <teacher id="*62" name="Niculita Maria" short="MN" htmlexportlink="teachers_1.html?frame=11"/>
+      <teacher id="*63" name="Afteni Natalia" short="AN" htmlexportlink="teachers_1.html?frame=12"/>
+      <teacher id="*64" name="Pascal Ana" short="PA" htmlexportlink="teachers_1.html?frame=13"/>
+      <teacher id="*65" name="Calin Irina" short="CI" htmlexportlink="teachers_1.html?frame=14"/>
+      <teacher id="*66" name="VAcansie  Ecologie" short="EV" htmlexportlink="teachers_1.html?frame=15"/>
+      <teacher id="*67" name="Turceac  Ecaterina" short="TE" htmlexportlink="teachers_1.html?frame=16"/>
+   </teachers>
+   <classes options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name, short,htmlexportlink">
+      <class id="*1" name="I.PAP1711" htmlexportlink="index.html?frame=0"/>
+      <class id="*2" name="I.APW1712" htmlexportlink="index.html?frame=1"/>
+      <class id="*3" name="I.PAP1621" htmlexportlink="index.html?frame=2"/>
+      <class id="*4" name="I.APW1622" htmlexportlink="index.html?frame=3"/>
+      <class id="*5" name="I.1531" htmlexportlink="index.html?frame=4"/>
+      <class id="*6" name="I.1532" htmlexportlink="index.html?frame=5"/>
+      <class id="*7" name="I.1441" htmlexportlink="index.html?frame=6"/>
+      <class id="*8" name="I.1442" htmlexportlink="index.html?frame=7"/>
+      <class id="*9" name="C.1711" htmlexportlink="index.html?frame=8"/>
+      <class id="*10" name="C.1712" htmlexportlink="index.html?frame=9"/>
+      <class id="*11" name="C.1621" htmlexportlink="index.html?frame=10"/>
+      <class id="*12" name="C.1622" htmlexportlink="index.html?frame=11"/>
+      <class id="*13" name="C.1531" htmlexportlink="index.html?frame=12"/>
+      <class id="*14" name="C.1532" htmlexportlink="index.html?frame=13"/>
+      <class id="*15" name="C.1441" htmlexportlink="index.html?frame=14"/>
+      <class id="*16" name="C.1442" htmlexportlink="index.html?frame=15"/>
+      <class id="*17" name="E.1711" htmlexportlink="index.html?frame=16"/>
+      <class id="*18" name="E.1621" htmlexportlink="index.html?frame=17"/>
+      <class id="*19" name="E.1531" htmlexportlink="index.html?frame=18"/>
+      <class id="*20" name="E.1441" htmlexportlink="index.html?frame=19"/>
+      <class id="*21" name="AS.1711" htmlexportlink="index.html?frame=20"/>
+      <class id="*22" name="AS.1712" htmlexportlink="index.html?frame=21"/>
+      <class id="*23" name="AS.1621" htmlexportlink="index.html?frame=22"/>
+      <class id="*24" name="AS.1622" htmlexportlink="index.html?frame=23"/>
+      <class id="*25" name="AS.1531" htmlexportlink="index.html?frame=24"/>
+      <class id="*26" name="AS.1532" htmlexportlink="index.html?frame=25"/>
+      <class id="*27" name="AS.1441" htmlexportlink="index.html?frame=26"/>
+      <class id="*28" name="AS.1442" htmlexportlink="index.html?frame=27"/>
+   </classes>
+   <subjects options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <subject id="*1" name="Programare Structurată" short="Pr. Str." htmlexportlink=""/>
+      <subject id="*2" name="Proiectarea Adminiatrarea WEB" short="PAWEB" htmlexportlink=""/>
+      <subject id="*3" name="Retele de Calculatoare" short="RCalc" htmlexportlink=""/>
+      <subject id="*4" name="Elaborarea Produselor Program" short="EPP" htmlexportlink=""/>
+      <subject id="*5" name="SGBD" short="SGBD" htmlexportlink=""/>
+      <subject id="*6" name="Informatica" short="Inf" htmlexportlink=""/>
+      <subject id="*7" name="Aplicatii Windows Gestiunie Baze Date" short="AWGBD" htmlexportlink=""/>
+      <subject id="*8" name="Procesarea Imaginilor" short="Pr.Imag." htmlexportlink=""/>
+      <subject id="*9" name="Baze de Date" short="BD" htmlexportlink=""/>
+      <subject id="*10" name="Asistenta Baze Date" short="ABD" htmlexportlink=""/>
+      <subject id="*11" name="Programarea Obiect Orientata" short="APOO" htmlexportlink=""/>
+      <subject id="*12" name="Mentenanta Sistemelor de Calcul " short="MSdC" htmlexportlink=""/>
+      <subject id="*13" name="Tehnologii Informationale Comunicationale" short="TIC" htmlexportlink=""/>
+      <subject id="*14" name="Tehnologii Moderne de Programare" short="TMdP" htmlexportlink=""/>
+      <subject id="*15" name="Asistenta Proiectarea Paginilor WEB" short="APPW" htmlexportlink=""/>
+      <subject id="*16" name="Programarea Calculatoarelor" short="PrCalc" htmlexportlink=""/>
+      <subject id="*17" name="Protectia Muncii" short="PrMunc" htmlexportlink=""/>
+      <subject id="*18" name="Asamblarea Sistemului de Calcul Mentenanta EP" short="ASdCME" htmlexportlink=""/>
+      <subject id="*19" name="Asamblarea si Depanarea Calculatorului Personal" short="ADCP" htmlexportlink=""/>
+      <subject id="*20" name="Administrarea Calculatoarelor si retelelor" short="ACR" htmlexportlink=""/>
+      <subject id="*21" name="Contabilitatea Manageriala" short="ContMan" htmlexportlink=""/>
+      <subject id="*22" name="Relatii Valutar Financiare" short="RVF" htmlexportlink=""/>
+      <subject id="*23" name="Contabilitate Bancara" short="ContBanc" htmlexportlink=""/>
+      <subject id="*24" name="Comert Electronic" short="ComEl" htmlexportlink=""/>
+      <subject id="*25" name="Economia Ramurii" short="EcRam" htmlexportlink=""/>
+      <subject id="*26" name="Teoria Economica" short="TEcon" htmlexportlink=""/>
+      <subject id="*27" name="Statistica" short="Stat" htmlexportlink=""/>
+      <subject id="*28" name="Economie Aplicata I" short="EAI" htmlexportlink=""/>
+      <subject id="*29" name="Contabilitatea Institutiilor Publice" short="CIP" htmlexportlink=""/>
+      <subject id="*30" name="Analiza Gestiunii" short="AnGest" htmlexportlink=""/>
+      <subject id="*31" name="Analiza Raportului Financiar" short="ARF" htmlexportlink=""/>
+      <subject id="*32" name="Riscuri in Afaceri Economice" short="RiAE" htmlexportlink=""/>
+      <subject id="*33" name="Administrarea Afaceriolr" short="AA" htmlexportlink=""/>
+      <subject id="*34" name="Bazele Antreprenoriatului" short="BA" htmlexportlink=""/>
+      <subject id="*35" name="Bazele Contabilitatii" short="BazCont" htmlexportlink=""/>
+      <subject id="*36" name="Contabilitate Financiara" short="ContFin" htmlexportlink=""/>
+      <subject id="*37" name="Contabilitatea Intreprinderii" short="ContInt" htmlexportlink=""/>
+      <subject id="*38" name="Contabilitate Fiscala" short="ContFisc" htmlexportlink=""/>
+      <subject id="*39" name="Incluziunea Sociala a Grupului Minorilor" short="ISaGM" htmlexportlink=""/>
+      <subject id="*40" name="AS Copii si Tineret" short="ASCT" htmlexportlink=""/>
+      <subject id="*41" name="Consiliere in AS Terapia Familiei" short="CiATF" htmlexportlink=""/>
+      <subject id="*42" name="Educatia Incluziva" short="EdIncl" htmlexportlink=""/>
+      <subject id="*43" name="Concepte Fundamentale AS" short="CFAS" htmlexportlink=""/>
+      <subject id="*44" name="Unit Prim si Proc Social" short="UPsPS" htmlexportlink=""/>
+      <subject id="*45" name="Ludoterapie" short="Lud" htmlexportlink=""/>
+      <subject id="*46" name="Psihologia Personalitatii" short="PP" htmlexportlink=""/>
+      <subject id="*47" name="Psihologia Generala" short="PG" htmlexportlink=""/>
+      <subject id="*48" name="Metodici Tehnici AS" short="MTAS" htmlexportlink=""/>
+      <subject id="*49" name="Management in Domeniu" short="MD" htmlexportlink=""/>
+      <subject id="*50" name="Asistenta Persoanelor in Etate" short="APiE" htmlexportlink=""/>
+      <subject id="*51" name="Psihopedagogie Speciala" short="PS" htmlexportlink=""/>
+      <subject id="*52" name="Etica Deontologica Profesionala" short="EDP" htmlexportlink=""/>
+      <subject id="*53" name="Decizii pentru Modul Sanatos de Viata" short="DpMSdV" htmlexportlink=""/>
+      <subject id="*54" name="Probleme Sociale ale Saraciei si Somajului" short="PSaSsS" htmlexportlink=""/>
+      <subject id="*55" name="Psihologia Sociala Devianta" short="PSD" htmlexportlink=""/>
+      <subject id="*56" name="Educatie Fizica" short="EF" htmlexportlink=""/>
+      <subject id="*57" name="Matematica" short="Mat" htmlexportlink=""/>
+      <subject id="*58" name="Probabilitatea si Statistica Aplicata" short="PsSA" htmlexportlink=""/>
+      <subject id="*59" name="Chimie" short="Ch" htmlexportlink=""/>
+      <subject id="*60" name="Biologie" short="Biol" htmlexportlink=""/>
+      <subject id="*61" name="Ecologie Generala" short="EG" htmlexportlink=""/>
+      <subject id="*62" name="Microbiologie" short="MicrBiol" htmlexportlink=""/>
+      <subject id="*63" name="Geografie" short="Geog" htmlexportlink=""/>
+      <subject id="*64" name="Anatomia si Fiziologia Omului" short="AsFO" htmlexportlink=""/>
+      <subject id="*65" name="Eco Botanica Eco Zoologia" short="EBEZ" htmlexportlink=""/>
+      <subject id="*66" name="Biodiversitate" short="BioD" htmlexportlink=""/>
+      <subject id="*67" name="Lumea Vegetala RM" short="LVRM" htmlexportlink=""/>
+      <subject id="*68" name="Ecologia Bazinelor Acvatice" short="EBA" htmlexportlink=""/>
+      <subject id="*69" name="Hazarduri Naturale" short="HN" htmlexportlink=""/>
+      <subject id="*70" name="Ecologizarea Agriculturii" short="EA" htmlexportlink=""/>
+      <subject id="*71" name="Ecosistematica" short="Ecosist" htmlexportlink=""/>
+      <subject id="*72" name="Estimarea si Managementul Riscului Ecologic" short="EsMRE" htmlexportlink=""/>
+      <subject id="*73" name="Ecostatistica" short="Ecostat" htmlexportlink=""/>
+      <subject id="*74" name="Fizica" short="Fiz" htmlexportlink=""/>
+      <subject id="*75" name="Astronomie" short="Ast" htmlexportlink=""/>
+      <subject id="*76" name="Limba Engleza II" short="LEn.II" htmlexportlink=""/>
+      <subject id="*77" name="Limba Engleza" short="LEn" htmlexportlink=""/>
+      <subject id="*78" name="Limba Romana" short="LRom" htmlexportlink=""/>
+      <subject id="*79" name="Firma de Execitiu" short="FdE" htmlexportlink=""/>
+      <subject id="*80" name="Istorie" short="Ist" htmlexportlink=""/>
+      <subject id="*81" name="Limba Rusa" short="LRus" htmlexportlink=""/>
+      <subject id="*82" name="Limba Franceza" short="LFr" htmlexportlink=""/>
+      <subject id="*83" name="Limba Franceza II" short="LFrII" htmlexportlink=""/>
+      <subject id="*84" name="Cultura Comunicarii" short="CultCom" htmlexportlink=""/>
+      <subject id="*85" name="Filozofie" short="Fil" htmlexportlink=""/>
+      <subject id="*86" name="Educatie Civica" short="EdCiv" htmlexportlink=""/>
+      <subject id="*87" name="Dreptul Familiei si Copilului" short="DFsC" htmlexportlink=""/>
+      <subject id="*88" name="Bazele Legislatiei in Domeniul" short="BLD" htmlexportlink=""/>
+      <subject id="*89" name="Literatura Universala" short="LU" htmlexportlink=""/>
+      <subject id="*90" name="Limba Straina De Afaceri II" short="LSDA2" htmlexportlink=""/>
+      <subject id="*91" name="Dirigintie" short="Dir" htmlexportlink=""/>
+      <subject id="*92" name="Stiinte ale Educatiei" short="SaE" htmlexportlink=""/>
+      <subject id="*93" name="Testarea Depanarea Produselor Program" short="TDPP" htmlexportlink=""/>
+      <subject id="*94" name="Dezvoltare Pagini WEB" short="DPW" htmlexportlink=""/>
+      <subject id="*95" name="Sistemul de protec?ie sociala în RM" short="SdpsîR" htmlexportlink=""/>
+      <subject id="*96" name="Forme de protec?ie a grupurilor de popula?ie în dificultate" short="Fdpagdpîd" htmlexportlink=""/>
+      <subject id="*97" name="Cadrul normativ: Bazele legisla?iei în domeniu " short="CnBlîd" htmlexportlink=""/>
+      <subject id="*98" name="Cadrul normativ: Dreptul familiei ?i a copilului" short="CnDf?ac" htmlexportlink=""/>
+      <subject id="*99" name="Unita?ile primare ?i procesele sociale" short="Up?ps" htmlexportlink=""/>
+      <subject id="*100" name="Incluziunea sociala a grupurilor minoritare" short="Isagm" htmlexportlink=""/>
+      <subject id="*101" name="Teoria Metodologia AS" short="TMA" htmlexportlink=""/>
+      <subject id="*102" name="Bunastarea Familiei si Copilului" short="BFsC" htmlexportlink=""/>
+      <subject id="*103" name="Kinetoterapie" short="K" htmlexportlink=""/>
+      <subject id="*104" name="Practica AS" short="PrAS" htmlexportlink=""/>
+      <subject id="*105" name="Psihopedagogia Familiei" short="PF" htmlexportlink=""/>
+      <subject id="*106" name="Psihologia Conflictelor" short="PC" htmlexportlink=""/>
+      <subject id="*107" name="Tehnici generale ?i specifice de îngrijire" short="TGSI" htmlexportlink=""/>
+      <subject id="*108" name="Managementul clasei de elevi" short="Mcde" htmlexportlink=""/>
+      <subject id="*109" name="Contabilitate Bancara" short="CB" htmlexportlink=""/>
+      <subject id="*110" name="Retorica" short="R" htmlexportlink=""/>
+      <subject id="*111" name="Ecologia umana" short="Eu" htmlexportlink=""/>
+      <subject id="*112" name="Botanica si zoologia cu elemente ecologice" short="Bszcee" htmlexportlink=""/>
+      <subject id="*113" name="Geologie Generala" short="GG" htmlexportlink=""/>
+      <subject id="*114" name="Chimia mediului" short="Cm" htmlexportlink=""/>
+      <subject id="*115" name="Lomba Straina Aplicata" short="LSA" htmlexportlink=""/>
+      <subject id="*116" name="Metode de conservare, restabilire si ameliorare a mediului" short="Mdcrsaam" htmlexportlink=""/>
+      <subject id="*117" name="Dezvoltare durabila si managementul ecologic" short="Ddsme" htmlexportlink=""/>
+      <subject id="*118" name="Metode si sisteme de purificare a mediului" short="Mssdpam" htmlexportlink=""/>
+      <subject id="*119" name="Monitoringul ecologic" short="Me" htmlexportlink=""/>
+      <subject id="*120" name="Protectia mediului si utilizarea resurselor naturale" short="Pmsurn" htmlexportlink=""/>
+      <subject id="*121" name="Relatii valutar financiare interne" short="Rvfi" htmlexportlink=""/>
+      <subject id="*122" name="Tehnici de prelucrare si recuperare a deseurilor" short="Tdpsrad" htmlexportlink=""/>
+      <subject id="*123" name="Monitoringul ecologic" short="Me" htmlexportlink=""/>
+      <subject id="*124" name="Anatomia Fiziologia Omului" short="AFO" htmlexportlink=""/>
+      <subject id="*125" name="Relatii internationale în domeniul protecttei mediului" short="Riîdpm" htmlexportlink=""/>
+      <subject id="*126" name="Cultura Educatia Ecologica" short="CEE" htmlexportlink=""/>
+   </subjects>
+   <classrooms options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,name,short,htmlexportlink">
+      <classroom id="*1" name="214" short="214" htmlexportlink="rooms.html?frame=0"/>
+      <classroom id="*2" name="215" short="215" htmlexportlink="rooms.html?frame=1"/>
+      <classroom id="*3" name="216" short="216" htmlexportlink="rooms.html?frame=2"/>
+      <classroom id="*4" name="311" short="311" htmlexportlink="rooms.html?frame=3"/>
+      <classroom id="*5" name="313" short="313" htmlexportlink="rooms.html?frame=4"/>
+      <classroom id="*6" name="314" short="314" htmlexportlink="rooms.html?frame=5"/>
+      <classroom id="*7" name="307" short="307" htmlexportlink="rooms.html?frame=6"/>
+      <classroom id="*8" name="Sala Sportiva 1" short="S1" htmlexportlink="rooms.html?frame=7"/>
+      <classroom id="*9" name="Sala Sportiva 2" short="S2" htmlexportlink="rooms.html?frame=8"/>
+      <classroom id="*10" name="315" short="315" htmlexportlink="rooms.html?frame=9"/>
+      <classroom id="*11" name="309" short="309" htmlexportlink="rooms.html?frame=10"/>
+      <classroom id="*12" name="322" short="322" htmlexportlink="rooms.html?frame=11"/>
+      <classroom id="*13" name="328" short="328" htmlexportlink="rooms.html?frame=12"/>
+      <classroom id="*14" name="318" short="318" htmlexportlink="rooms.html?frame=13"/>
+      <classroom id="*15" name="306" short="306" htmlexportlink="rooms.html?frame=14"/>
+      <classroom id="*16" name="304" short="304" htmlexportlink="rooms.html?frame=15"/>
+      <classroom id="*17" name="325" short="325" htmlexportlink="rooms.html?frame=16"/>
+      <classroom id="*18" name="324" short="324" htmlexportlink="rooms.html?frame=17"/>
+      <classroom id="*19" name="101" short="101" htmlexportlink="rooms.html?frame=18"/>
+      <classroom id="*20" name="108" short="108" htmlexportlink="rooms.html?frame=19"/>
+      <classroom id="*21" name="112" short="112" htmlexportlink="rooms.html?frame=20"/>
+      <classroom id="*22" name="115" short="115" htmlexportlink="rooms.html?frame=21"/>
+      <classroom id="*23" name="118" short="118" htmlexportlink="rooms.html?frame=22"/>
+      <classroom id="*24" name="122" short="122" htmlexportlink="rooms.html?frame=23"/>
+      <classroom id="*25" name="123" short="123" htmlexportlink="rooms.html?frame=24"/>
+      <classroom id="*26" name="125" short="125" htmlexportlink="rooms.html?frame=25"/>
+      <classroom id="*27" name="201" short="201" htmlexportlink="rooms.html?frame=26"/>
+      <classroom id="*28" name="204" short="204" htmlexportlink="rooms.html?frame=27"/>
+      <classroom id="*29" name="223" short="223" htmlexportlink="rooms.html?frame=28"/>
+      <classroom id="*30" name="218" short="218" htmlexportlink="rooms.html?frame=29"/>
+      <classroom id="*31" name="225" short="225" htmlexportlink="rooms.html?frame=30"/>
+      <classroom id="*32" name="228" short="228" htmlexportlink="rooms.html?frame=31"/>
+      <classroom id="*33" name="412" short="412" htmlexportlink="rooms.html?frame=32"/>
+      <classroom id="*34" name="410" short="410" htmlexportlink="rooms.html?frame=33"/>
+      <classroom id="*35" name="415" short="415" htmlexportlink="rooms.html?frame=34"/>
+      <classroom id="*36" name="202" short="202" htmlexportlink="rooms.html?frame=35"/>
+      <classroom id="*37" name="302" short="302" htmlexportlink="rooms.html?frame=36"/>
+      <classroom id="*38" name="301" short="301" htmlexportlink="rooms.html?frame=37"/>
+   </classrooms>
+   <students options="import:disable,canadd,canremove,canupdate,primarytt,silent" columns="id,classid,name,htmlexportlink"/>
+   <Settings bPrintClass="1" bPrintTeacher="1" bPrintClassroom="1" bPrintStudents="0" strPrintClass="Clase" strPrintTeacher="Profesori" strPrintClassroom="Săli de clasă" strPrintStudent="Elevi" strPrintSummary="Orare generale" bPrintSummaryClass="0" bPrintSummaryTeacher="0" bPrintSummaryClassroom="0" strPrintSummaryClass="Clase" strPrintSummaryTeacher="Profesori" strPrintSummaryClassroom="Săli de clasă" bSeparateWeeksTerms="1" nWeeks="2" nTerms="0">
+      <Weeks W0="Toate săptămânile" W1="Săptămâna Impara" W2="Săptămâna Para"/>
+      <Terms T0="Tot anul" T1="Term 1"/>
+      <strPrintWeek>Săptămâna</strPrintWeek>
+      <strPrintTerm>Term</strPrintTerm>
+   </Settings>
+</timetable>
