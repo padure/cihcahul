@@ -19,3 +19,49 @@ and open the template in the editor.
 .login-image img{
     width: 98%;
 }
+/*Admin index*/
+.admin{
+    padding: 0!important;
+}
+.admin-body{
+    padding: 0!important;
+}
+.admin img{
+    width: 30%;
+    margin-left: 35%;
+}
+.admin div{
+    padding-top: 50px;
+    padding-bottom: 45px;
+    
+}
+.color-1{
+    background-color: #777;
+    
+    padding: 0;
+}
+.color-1:hover{
+    background-color: #595959;
+    border: 2px solid #e7e7e7;
+}
+.color-2{
+    background-color: #e7e7e7;
+    
+    padding: 0;
+}
+.color-2:hover{
+    background-color: #e6e6e6;
+    border: 2px solid #777;
+}
+.color-2 h4{
+    color: #777;
+}
+.color-1 h4{
+    color: #e7e7e7;
+}
+.admin h3{
+    color: white;
+    margin: 0px;
+    font-size: 25px;
+    margin-top: 10px;
+}
