@@ -76,55 +76,28 @@
 <!--=== End Slider ===-->
 
 		<!--=== Content Part ===-->
-		<div class="container content-sm">
-			<!-- Service Blocks -->
-			<div class="row margin-bottom-30">
-				<div class="col-md-4">
-					<div class="service">
-						<i class="fa fa-compress service-icon"></i>
-						<div class="desc">
-							<h4>Johann Amos Comenius</h4>
-							<p>Natura înzestrează copilul numai cu „semințele științei, ale moralității și religiozității”, ele devin un bun al fiecărui om numai prin educație.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<i class="fa fa-cogs service-icon"></i>
-						<div class="desc">
-							<h4>Aristotel</h4>
-							<p>Cei care educa copiii sunt demni de mai multa onoare decat cei care le dau viata; de aceea pe langa viata, daruiti copiilor si arta de a trai bine, educandu-i.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<i class="fa fa-rocket service-icon"></i>
-						<div class="desc">
-							<h4>Thomas Chandler Haliburton</h4>
-							<p>Educatia pe care o primesti la colegiu iti arata cat de putin stim in realitate.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- End Service Blokcs -->
+		<div class="container-fluid content-sm content-index">
 
 			<!-- Recent Works -->
 			<div class="headline"><h2>Activități recente</h2></div>
 			<div class="row margin-bottom-20">
                          @foreach($sidebar as $article)
-				<div class="col-md-3 col-sm-6">
+				<div class="col-md-4 col-sm-6">
 					<div class="thumbnails thumbnail-style thumbnail-kenburn">
-						<div class="thumbnail-img">
+                                            <div class="caption" style="height: 90px;">
+                                                <h3><a class="hover-effect" href="{{route('ShowArticle',['id'=>$article->id])}}">{{$article->title}}</a></h3>
+                                            </div>
+                                            <div class="thumbnail-img">
 							<div class="overflow-hidden">
-								<img class="img-responsive" src="{{$article->image}}" alt="">
+                                                            <img class="img-responsive" src="{{$article->image}}" alt="" style="width: 100%;">
 							</div>
-							<a class="btn-more hover-effect" href="{{route('ShowArticle',['id'=>$article->id])}}">Citește mai mult +</a>
-						</div>
-						<div class="caption">
-							<h3><a class="hover-effect" href="#">{{$article->title}}</a></h3>
-							<p>{{$article->description}}</p>
-						</div>
+                                                <a class="btn-more hover-effect" href="{{route('ShowArticle',['id'=>$article->id])}}" style="bottom: 10px;">Citește mai mult +</a>
+                                            </div>
+                                            <div class="caption" style="height: 90px;">
+                                                <hr style="margin: 10px;"/>
+                                                	
+                                                <p>{{str_limit($article->description, 190)}}</p>
+                                            </div>
 					</div>
 				</div>
                                @endforeach

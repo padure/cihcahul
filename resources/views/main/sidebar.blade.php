@@ -3,7 +3,7 @@
 					
 					<!-- Posts -->
 					<div class="posts margin-bottom-40">
-						<div class="headline headline-md"><h2>Postări recente</h2></div>
+						<div class="headline headline-md"><h2>Top vizualizări</h2></div>
 						@foreach($recent as $rec)
                                                 <dl class="dl-horizontal">
 							<dt><a href="{{route('ShowArticle',['id'=>$rec->id])}}"><img src="{{URL::asset($rec->image)}}"></a></dt>

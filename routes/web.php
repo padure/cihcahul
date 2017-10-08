@@ -67,4 +67,11 @@ Route::delete('delete_specialities/{id}',function(\App\Speciality $id){
     $id->delete();
     return redirect('admin_specialities');})->name('specDelete');
 
-Route::get('/home', 'AdminController@index');
+/*Sidebar routs*/
+    //Route::get('admin');
+    Route::prefix('admin')->group(function () {
+    Route::get('sidebar','Admin\AcasaController@sidebar');
+    Route::get('parteneri','Admin\AcasaController@parteneri');
+    Route::get('footer','Admin\AcasaController@footer');
+    Route::get('regulament','Admin\AdmitereController@regulament');
+});

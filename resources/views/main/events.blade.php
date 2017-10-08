@@ -8,16 +8,16 @@
 					<!--Blog Post-->
                                         @foreach($articles as $article)
 					<div class="row blog blog-medium margin-bottom-40">
-						<div class="col-md-5">
-							<img class="img-responsive" src="{{$article->image}}" alt="">
-						</div>
-						<div class="col-md-7">
+						<div class="col-md-6 description-evets">
 							<h2><a href="{{route('ShowArticle',['id'=>$article->id])}}">{{$article->title}}</a></h2>
 							<ul class="list-unstyled list-inline blog-info">
 								<li><i class="fa fa-calendar"></i>{{$article->date}}</li>
 							</ul>
-							<p>{{$article->description}}</p>
+                                                        <p class="description-evets"> {!!str_limit($article->content, 400)!!}</p>
 							<p><a class="btn-u btn-u-sm" href="{{route('ShowArticle',['id'=>$article->id])}}">Read More <i class="fa fa-angle-double-right margin-left-5"></i></a></p>
+						</div>
+                                                <div class="col-md-6">
+							<img class="img-responsive" src="{{$article->image}}" alt="">
 						</div>
 					</div>
                                         

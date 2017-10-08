@@ -48,9 +48,9 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Sidebar</a></li>
-                                    <li><a href="#">Parteneri</a></li>
-                                    <li><a href="#">Info footer</a></li>
+                                    <li><a href="{{ url('/admin/sidebar') }}">Sidebar</a></li>
+                                    <li><a href="{{ url('/admin/parteneri') }}">Parteneri</a></li>
+                                    <li><a href="{{ url('/admin/footer') }}">Info footer</a></li>
                                 </ul>
                         </li>
                         <li class="dropdown">
@@ -69,7 +69,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">Regulament</a></li>
+                                    <li><a href="{{ url('/admin/regulament') }}">Regulament</a></li>
                                     <li><a href="#">Rezultate</a></li>  
                                 </ul>
                         </li>

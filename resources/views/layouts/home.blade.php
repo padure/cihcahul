@@ -44,7 +44,54 @@
 	</head>
 
 <body>
-     <div class="navbar navbar-default navbar-fixed-top">
+    <div class="copyright menu-top">
+	<div class="container-fluid">
+		<div class="row">
+						<!-- Social Links -->
+                    <div class="col-md-6 col-md-offset-6">
+			<ul class="footer-socials list-inline">
+                            <li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+                                                                <li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Skype">
+										<i class="fa fa-skype"></i>
+									</a>
+								</li>
+                                                                <li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Linkedin">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Pinterest">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</li>
+								<li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li class="pull-right">
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Dribbble">
+										<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- End Social Links -->
+					</div>
+				</div>
+			</div><!--/copyright-->
+     <div class="navbar navbar-default">
 	<div class="wrapper">
 		<!--=== Header ===-->
 		<div class="header">
@@ -68,14 +115,14 @@
 				<div class="container">
 					<ul class="nav navbar-nav">
 						<!-- Home -->
-						<li class="active">
+						<li class="active menu">
 							<a href="{{URL('/')}}">
 								Acasă
 							</a>
 						</li>	
 
 						<!-- Pages -->
-						<li class="dropdown">
+						<li class="dropdown menu">
 							<a href="" class="dropdown-toggle" data-toggle="dropdown">
 								Specialități
 							</a>
@@ -92,7 +139,7 @@
 
 						<!-- Blog -->
 						<!-- Demo Pages -->
-						<li class="dropdown">
+						<li class="dropdown menu">
 							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
 								Admitere
 							</a>
@@ -106,12 +153,12 @@
 						<!-- End Blog -->
 
 						<!-- Portfolio -->
-						<li>
+                                                <li class="menu">
 							<a href="http://orar.cihcahul.md/">
 								Orar
 							</a>
 						</li>
-						<li>
+                                                <li class="menu">
 							<a href="{{URL::asset('assets/fisiere/Orar_arte_Semestrul1_2017_2018.pdf')}}">
 								Orar Arte
 							</a>
@@ -119,7 +166,7 @@
 						<!-- End Portfolio -->
 
 						<!-- Features -->
-						<li>
+                                                <li class="menu">
 							<a href="{{URL('/events')}}">
 								Evenimente
 							</a>
@@ -127,7 +174,7 @@
 						<!-- End Features -->
 
 						<!-- Shortcodes -->
-						<li>
+                                                <li class="menu">
 							<a href="{{URL('/about')}}">
 								Despre
 							</a>
@@ -135,7 +182,7 @@
 						<!-- End Shortcodes -->
 
 						<!-- Demo Pages -->
-						<li>
+                                                <li class="menu">
 							<a href="{{URL('/contact')}}">
 								Contacte
 							</a>
@@ -154,7 +201,7 @@
                 		<!--=== Footer Version 1 ===-->
 		<div class="footer-v1">
 			<div class="footer">
-				<div class="container">
+				<div class="container-fluid">
 					<div class="row">
 						<!-- About -->
 						<div class="col-md-3 md-margin-bottom-40">
