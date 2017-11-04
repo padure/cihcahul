@@ -27,6 +27,8 @@
 
 	<!-- CSS Implementing Plugins -->
 	<link rel="stylesheet" href="{{URL::asset('assets/plugins/animate.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/animate.css')}}">
+        <link rel="stylesheet" href="{{URL::asset('css/owl.theme.default.min.css')}}">
 	<link rel="stylesheet" href="{{URL::asset('assets/plugins/line-icons/line-icons.css')}}">
 	<link rel="stylesheet" href="{{URL::asset('assets/plugins/font-awesome/css/font-awesome.min.css')}}">
 	<link rel="stylesheet" href="{{URL::asset('assets/plugins/fancybox/source/jquery.fancybox.css')}}">
@@ -39,11 +41,11 @@
 
 	<!-- CSS Customization -->
 	<link rel="stylesheet" href="{{URL::asset('assets/css/custom.css')}}">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	</head>
 
 <body>
+    
     <div class="copyright menu-top">
 	<div class="container-fluid">
 		<div class="row">
@@ -51,7 +53,7 @@
                     <div class="col-md-6 col-md-offset-6">
 			<ul class="footer-socials list-inline">
                             <li class="pull-right">
-									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook">
+									<a href="https://www.facebook.com/cihcahul.md/" class="tooltips" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Facebook">
 										<i class="fa fa-facebook"></i>
 									</a>
 								</li>
@@ -91,110 +93,7 @@
 					</div>
 				</div>
 			</div><!--/copyright-->
-     <div class="navbar navbar-default">
-	<div class="wrapper">
-		<!--=== Header ===-->
-		<div class="header">
-			<div class="container">
-				<!-- Logo -->
-				<a class="logo" href="{{URL('/')}}">
-					<img src="{{URL::asset('assets/img/logocih.png')}}" alt="Logo">
-				</a>
-				<!-- End Logo -->
-
-				<!-- Toggle get grouped for better mobile display -->
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="fa fa-bars"></span>
-				</button>
-				<!-- End Toggle -->
-			</div><!--/end container-->
-
-			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
-				<div class="container">
-					<ul class="nav navbar-nav">
-						<!-- Home -->
-						<li class="active menu">
-							<a href="{{URL('/')}}">
-								Acasă
-							</a>
-						</li>	
-
-						<!-- Pages -->
-						<li class="dropdown menu">
-							<a href="" class="dropdown-toggle" data-toggle="dropdown">
-								Specialități
-							</a>
-							<ul class="dropdown-menu">
-                                                            @foreach($specialit as $sidebr)
-								<!-- Invoice Page -->
-							<li><a href="{{route('ShowSpecialities',['id'=>$sidebr->id])}}">{{$sidebr->denumire}}</a></li>
-								<!-- End Invoice Page --> @endforeach
-
-								
-							</ul>
-						</li> 
-						<!-- End Pages -->
-
-						<!-- Blog -->
-						<!-- Demo Pages -->
-						<li class="dropdown menu">
-							<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">
-								Admitere
-							</a>
-							<ul class="dropdown-menu">
-																<li><a href="{{route('conditii')}}">Condiții de admitere</a></li>
-                                                                <li><a href="{{URL::asset('assets/regulament_admitere.pdf')}}">Regulament</a></li>
-                                                                <li><a href="{{route('conditii')}}">Rezultatele admiterii</a></li>
-							</ul>
-						</li>
-						<!-- End Demo Pages -->
-						<!-- End Blog -->
-
-						<!-- Portfolio -->
-                                                <li class="menu">
-							<a href="http://orar.cihcahul.md/">
-								Orar
-							</a>
-						</li>
-                                                <li class="menu">
-							<a href="{{URL::asset('assets/fisiere/Orar_arte_Semestrul1_2017_2018.pdf')}}">
-								Orar Arte
-							</a>
-						</li>
-						<!-- End Portfolio -->
-
-						<!-- Features -->
-                                                <li class="menu">
-							<a href="{{URL('/events')}}">
-								Evenimente
-							</a>
-						</li>
-						<!-- End Features -->
-
-						<!-- Shortcodes -->
-                                                <li class="menu">
-							<a href="{{URL('/about')}}">
-								Despre
-							</a>
-						</li>
-						<!-- End Shortcodes -->
-
-						<!-- Demo Pages -->
-                                                <li class="menu">
-							<a href="{{URL('/contact')}}">
-								Contacte
-							</a>
-						</li>
-						<!-- End Demo Pages -->
-
-					</ul>
-				</div><!--/end container-->
-			</div><!--/navbar-collapse-->
-		</div>
-        </div>
-     </div>
+                        @include('menu')
 		<!--=== End Header ===-->
 
                 @yield('content')
@@ -205,7 +104,7 @@
 					<div class="row">
 						<!-- About -->
 						<div class="col-md-3 md-margin-bottom-40">
-							<a href="{{route('home')}}"><img id="logo-footer" class="footer-logo" src="{{URL::asset('assets/img/logocih.png')}}" alt=""></a>
+							<a href="{{url('/')}}"><img id="logo-footer" class="footer-logo" src="{{URL::asset('assets/img/logocih.png')}}" alt=""></a>
 							<p>La naștere, natura înzestrează copilul numai cu „semințele științei, ale moralității și religiozității”, ele devin un bun al fiecărui om numai prin educație. Educația este o activitate de stimulare a acestor „semințe”, și implicit, de conducere a procesului de umanizare, omul ”nu poate deveni om decât dacă este educat”.</p>
 							</div><!--/col-md-3-->
 						<!-- End About -->
@@ -234,7 +133,7 @@
 							<div class="headline"><h2>Categorii</h2></div>
 							<ul class="list-unstyled link-list">
 								<li><a href="{{URL('/about')}}">Despre</a><i class="fa fa-angle-right"></i></li>
-								<li><a href="#">Admitere</a><i class="fa fa-angle-right"></i></li>
+								<li><a href="{{url('conditii')}}">Admitere</a><i class="fa fa-angle-right"></i></li>
 								<li><a href="{{URL('/events')}}">Evenimente</a><i class="fa fa-angle-right"></i></li>
 								<li><a href="http://orar.cihcahul.md/">Orar</a><i class="fa fa-angle-right"></i></li>
 								<li><a href="{{URL::asset('assets/fisiere/Orar_arte_Semestrul1_2017_2018.pdf')}}">Orar Arte</a><i class="fa fa-angle-right"></i></li>
@@ -271,7 +170,7 @@
 						<div class="col-md-6">
 							<ul class="footer-socials list-inline">
 								<li>
-									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+									<a href="https://www.facebook.com/cihcahul.md/" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
 										<i class="fa fa-facebook"></i>
 									</a>
 								</li>
@@ -318,7 +217,7 @@
 	
 
 	<!-- JS Global Compulsory -->
-	<script type="text/javascript" src="{{URL::asset('assets/plugins/jquery/jquery.min.js')}}"></script>
+	
 	<script type="text/javascript" src="{{URL::asset('assets/plugins/jquery/jquery-migrate.min.js')}}"></script>
 	<script type="text/javascript" src="{{URL::asset('assets/plugins/bootstrap/js/bootstrap.min.js')}}"></script>
 	<!-- JS Implementing Plugins -->
@@ -337,7 +236,7 @@
 	<script type="text/javascript" src="{{URL::asset('assets/js/plugins/owl-carousel.js')}}"></script>
 	<script type="text/javascript" src="{{URL::asset('assets/js/plugins/style-switcher.js')}}"></script>
 	<script type="text/javascript" src="{{URL::asset('assets/js/plugins/revolution-slider.js')}}"></script>
-		
+	<script src="js/jquery.stellar.min.js"></script>	
         <script type="text/javascript">
 			jQuery(document).ready(function() {
 				App.init();
@@ -354,6 +253,42 @@
 			<script src="assets/plugins/html5shiv.js"></script>
 			<script src="assets/plugins/placeholder-IE-fixes.js"></script>
 		<![endif]-->
+        <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+});
+</script>
 
 	</body>
 	</html>

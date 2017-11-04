@@ -12,21 +12,23 @@ use App\Partener;
 use App\Main_slider;
 use Mail;
 use DB;
+use App\Catedre;
 
 class Index1Controller extends Controller
 {
     public function index(){
 	   
-	   $message=Article::select(['id','title','content','author','description','date','image','views','tags'])->get();
-           $specialt=Speciality::select(['denumire','id'])->get();
+            
+           $message= Article::get();
+           $specialt=Speciality::get();
            $num=0;
-           $sidebar=Article::select(['id','title','date','image','description','views'])->orderBy('id','desc')->limit(3)->get();
-           $m_slider= Carousel::Select(['id','image'])->get();
-           $latest_events=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
-           $parten= Partener::Select(['id','image'])->get();
-           $slider= Main_slider::Select(['id','image'])->get();
+           $sidebar=Article::orderBy('id','desc')->limit(3)->get();
+           $m_slider= Carousel::get();
+           $latest_events=Article::orderBy('date','desc')->limit(3)->get();
+           $parten= Partener::get();
+           $slider= Main_slider::get();
          
-          $menu=Menu::select(['menulist','id'])->get();
+          $menu=Menu::get();
          
            
 //dump($num);
@@ -38,7 +40,6 @@ class Index1Controller extends Controller
    public function contact(){
      $specialt=Speciality::select(['denumire','id'])->get();
      $latest_events=Article::select(['id','title','date','image','author','description','views'])->orderBy('date','desc')->limit(3)->get();
-     $latest_events=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
 
 
 
@@ -50,7 +51,7 @@ class Index1Controller extends Controller
        
      $article=Article::select(['id','title','content','author','description','date','image','views','tags'])
              ->orderBy('id', 'desc')
-             ->paginate(2); 
+             ->paginate(3); 
 	 $specialt=Speciality::select(['denumire','id'])->get();
      $sidebar=Article::select(['id','title','date','image','description','views'])->orderBy('views','desc')->limit(4)->get();
      $sideb=Speciality::select(['denumire'])->get();
@@ -63,19 +64,26 @@ class Index1Controller extends Controller
         $art_M=Article::select(['id','title','content','author','description','date','image','views','tags'])->get();
       $sidebar=Article::select(['id','title','date','image','description','views'])->orderBy('views','desc')->limit(3)->get();
      $sideb=Speciality::select(['id','denumire'])->get();
-     $latest_events=Article::select(['id','title','date','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+     $latest_events=Article::select(['id','title','date','image','description','views'])->orderBy('views','desc')->limit(5)->get();
         $specialt=Speciality::select(['denumire','id'])->get();
     
        return view('main.more')->with(['article'=>$articl,'sidebar'=>$sidebar,'sideb'=>$sideb,'article_M'=>$art_M,'recent'=>$latest_events,'specialit'=>$specialt,'reccent'=>$latest_events]);
        
    }
    
-   public function showspecialities($id){
-        $latest_events= Speciality::select(['id','denumire','content','nr'])->where('id',$id)->first();
-         $latest_even=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
-        $specialt=Speciality::select(['denumire','id'])->get();
-         return view('main.specialities')->with(['recent'=>$latest_events,'reccent'=>$latest_even,'specialit'=>$specialt]);
+   public function specialitati() {
+       $specialitate= Speciality::select(['id', 'denumire', 'nr', 'content'])->get();
+       $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+       return view('main.specialitati', compact('reccent', 'specialitate'));
    }
+   
+   public function catedre() {
+       
+       $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+       $catedra= Catedre::all();
+       return view('main.catedre', compact('reccent', 'catedra'));
+   }
+   
    public function showmenu(){
       $menu=Menu::select(['menulist'])->get();
       //dump($articl);
@@ -106,4 +114,25 @@ class Index1Controller extends Controller
 		$intrebari=DB::table('intrebari_fregvente')->get();
 		return view('main.conditii')->with(['reccent'=>$latest_events,'specialit'=>$specialt,'acte'=>$acte , 'intrebari'=>$intrebari]);
 	}
+        
+        public function elevi() {
+            $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+            return view('main.elevi', compact('reccent'));
+        }
+        
+        public function galerie() {
+            $foto= Carousel::Select(['id','image'])->get();
+            $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+            return view('main.galerie', compact('reccent', 'foto'));
+        }
+        
+        public function achizitie() {
+            $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+            return view('main.achizitii', compact('reccent'));
+        }
+        
+        public function consiliu() {
+            $reccent=Article::select(['id','title','date','author','image','description','views'])->orderBy('date','desc')->limit(3)->get();
+            return view('main.consiliu', compact('reccent'));
+        }
 }

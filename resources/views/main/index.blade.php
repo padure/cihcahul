@@ -83,11 +83,11 @@
 			<div class="row margin-bottom-20">
                          @foreach($sidebar as $article)
 				<div class="col-md-4 col-sm-6">
-					<div class="thumbnails thumbnail-style thumbnail-kenburn">
-                                            <div class="caption" style="height: 90px;">
+					<div class="thumbnails thumbnail-style thumbnail-kenburn slideanim">
+                                            <div class="caption revolution-ch1 sft start" style="height: 90px;">
                                                 <h3><a class="hover-effect" href="{{route('ShowArticle',['id'=>$article->id])}}">{{$article->title}}</a></h3>
                                             </div>
-                                            <div class="thumbnail-img">
+                                            <div class="thumbnail-img animate-box">
 							<div class="overflow-hidden">
                                                             <img class="img-responsive" src="{{$article->image}}" alt="" style="width: 100%;">
 							</div>
@@ -96,7 +96,7 @@
                                             <div class="caption" style="height: 90px;">
                                                 <hr style="margin: 10px;"/>
                                                 	
-                                                <p>{{str_limit($article->description, 190)}}</p>
+                                                <p>{!!str_limit($article->content, 190)!!}</p>
                                             </div>
 					</div>
 				</div>
@@ -106,7 +106,7 @@
 			<!-- End Recent Works -->
 
 			<!-- Info Blokcs -->
-			<div class="row margin-bottom-30">
+			<div class="row margin-bottom-30 slideanim">
 				<!-- Welcome Block -->
 				<div class="col-md-8 md-margin-bottom-40">
 					<div class="headline"><h2>ECVET</h2></div>

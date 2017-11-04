@@ -14,6 +14,12 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/admin-style.css') }}" rel="stylesheet">
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
+    
+    <script src="{{ asset('js/jquery-3.2.1.slim.min.js') }}"></script>
+    <script src="{{ asset('js/popper.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/summernote-bs4.js') }}"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.8/summernote-bs4.css" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -59,7 +65,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">List Specialitati</a></li>
+                                    <li><a href="{{ url('/admin/specialitati') }}">List Specialitati</a></li>
                                     <li><a href="#">Adaugare Specialitati</a></li>
                                 </ul>
                         </li>
@@ -79,8 +85,8 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">List Evenimente</a></li>
-                                    <li><a href="#">Creare Evenimente</a></li>
+                                    <li><a href="{{url('/admin/evenimente')}}">List Evenimente</a></li>
+                                    <li><a href="{{ url('/admin/creare')}}">Creare Evenimente</a></li>
                                 </ul>
                         </li>
                         <li class="dropdown">
@@ -89,6 +95,7 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
+                                    <li><a href="{{ url('admin/catedre') }}">Catedre</a></li>
                                     <li><a href="#">Nr. Elevi</a></li>
                                     <li><a href="#">Administratie</a></li>
                                     <li><a href="#">Add Administratie</a></li>
@@ -110,11 +117,11 @@
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
-                                    <li><a href="#">List Galerie</a></li>
+                                    <li><a href="{{url('admin/galerie') }}">List Galerie</a></li>
                                     <li><a href="#">Add imagine</a></li>
                                 </ul>
                         </li>
-                        <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Add Meniu</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> Meniu</a></li>
                          <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                   <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contacte<span class="caret"></span>
@@ -162,6 +169,6 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <!--script src="{{ asset('js/app.js') }}"></script-->
 </body>
 </html>

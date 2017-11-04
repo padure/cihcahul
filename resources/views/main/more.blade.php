@@ -10,7 +10,7 @@
                                             @if($article)
 						<!-- News v3 -->
 						<div class="news-v3 bg-color-white margin-bottom-30">
-                                                    <h2><a href="#">{{$article->title}}</a></h2>
+                                                    <h2><a href="">{{$article->title}}</a></h2>
                                                     <ul class="list-inline posted-info">
 								
 									<li>Postat {{$article->date}}</li>
@@ -19,8 +19,7 @@
 							<img class="img-responsive full-width" src="{{URL::asset($article->image)}}" alt="">
 							<div class="news-v3-in">
 								
-								
-								<p>{!!$article->content!!}</p>
+							{!!$article->content!!}
 							</div>
 						</div>
 						<!-- End News v3 -->
